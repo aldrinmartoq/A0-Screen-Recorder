@@ -10,4 +10,6 @@
 
 @interface Document : NSDocument
 
+@property (weak) IBOutlet NSView *liveView;
+@property (weak) IBOutlet NSTextField *countdownLabel;
 @end

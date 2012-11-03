@@ -14,6 +14,7 @@
 		20352F80164470D100302BC1 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 20352F7F164470D100302BC1 /* Document.m */; };
 		20352F83164470D100302BC1 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20352F81164470D100302BC1 /* Document.xib */; };
 		20352F86164470D100302BC1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20352F84164470D100302BC1 /* MainMenu.xib */; };
+		20352F8D1644710000302BC1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20352F8C1644710000302BC1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		20352F7F164470D100302BC1 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		20352F82164470D100302BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
 		20352F85164470D100302BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20352F8C1644710000302BC1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20352F8D1644710000302BC1 /* AVFoundation.framework in Frameworks */,
 				20352F6D164470D100302BC1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		20352F6B164470D100302BC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20352F8C1644710000302BC1 /* AVFoundation.framework */,
 				20352F6C164470D100302BC1 /* Cocoa.framework */,
 				20352F6E164470D100302BC1 /* Other Frameworks */,
 			);
